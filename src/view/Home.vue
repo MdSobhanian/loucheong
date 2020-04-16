@@ -17,8 +17,8 @@
           </div>
         </div>
         <div style="text-align: center;margin-top: 40px">
-          <a href="#content">
-            <img src="static/img/home/downarrow.png" width="20">
+          <a v-scroll-to="'#content'" style="cursor: pointer">
+            <img src="/static/img/home/downarrow.png" width="20">
           </a>
         </div>
       </div>
@@ -28,8 +28,9 @@
       <vs-row
         vs-align="center"
         vs-type="flex" vs-justify="space-around" vs-w="12">
-        <vs-col :key="index" v-for="(item,index) in works" vs-type="flex" vs-justify="center" vs-align="center" vs-lg="6" vs-sm="6" vs-xs="12" style="padding: 20px">
-          <t-card :data="item"></t-card>
+        <vs-col :key="index" v-for="(item,index) in works" vs-type="flex" vs-justify="center" vs-align="center" vs-lg="4" vs-sm="6" vs-xs="12" style="padding: 20px">
+          <t-card :data="item" :index="index"></t-card>
+
         </vs-col>
       </vs-row>
     </div>

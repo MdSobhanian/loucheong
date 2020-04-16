@@ -6,7 +6,8 @@ import router from './router'
 import Vuesax from 'vuesax'
 import 'vuesax/dist/vuesax.css' //Vuesax styles
 import 'material-icons/iconfont/material-icons.css';
-
+const VueScrollTo = require('vue-scrollto')
+Vue.use(VueScrollTo)
 Vue.config.productionTip = false
 Vue.use(Vuesax, {
   // options here

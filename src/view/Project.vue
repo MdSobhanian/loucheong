@@ -1,5 +1,10 @@
 <template>
   <div>
-    Project page
+    Project page{{this.$route.params}}
   </div>
 </template>
+<script>
+  export default {
+
+  }
+</script>

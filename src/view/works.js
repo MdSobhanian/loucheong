@@ -1,33 +1,33 @@
 export default [
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/0.PNG',
     title:'MURDER MYSTERY HOUSE',
-    description:'Gaming App Design'
+    type:'Gaming App Design'
   },
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/1.PNG',
     title:'Leichi',
-    description:'Brand Guide, Web Menu'
+    type:'Brand Guide, Web Menu'
   },
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/2.PNG',
     title:'WeChat',
-    description:'App Re-Design/UX'
+    type:'App Re-Design/UX'
   },
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/3.PNG',
     title:'Magazine - Black Hole',
-    description:'Graphic Design'
+    type:'Graphic Design'
   },
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/4.PNG',
     title:'Finding Jellie',
-    description:'Web App Design/Coded Prototype'
+    type:'Web App Design/Coded Prototype'
   },
   {
-    img_url:'/static/img/home/monetp6.png',
+    img_url:'/static/img/home/5.PNG',
     title:'Remembering Monet',
-    description:'Coded Responsive Website'
+    type:'Coded Responsive Website'
   },
 
 ]

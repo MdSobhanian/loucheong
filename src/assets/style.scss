@@ -1,7 +1,35 @@
 #app{
+  padding-top: 50px;
+  font-family: Helvetica;
   .vs-navbar{
     position: fixed!important;
     z-index: 100!important;
+    top: 0;
     background-color: white!important;
   }
 }
+@media screen and (max-width: 800px){
+  .vs-navbar--header{
+    flex-direction: row-reverse;
+  }
+  .vs-navbar--item a{
+    text-align: center;
+    cursor: pointer!important;;
+    color: white!important;
+    font-weight: 700!important;
+    font-size: 15px!important;;
+  }
+  .vs-con-items.activeMenuResponsive{
+    height: 50vh;
+    align-items: center;
+    width: 100vw;
+    background-color: #BB3939;
+    padding-top: 20vh;
+    position: fixed;
+    top: 0;
+  }
+  .vs-navbar--btn-responsive.active-menu{
+    z-index: 1;
+  }
+}
+
