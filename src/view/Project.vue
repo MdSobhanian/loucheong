@@ -52,22 +52,22 @@
             <p>2. Invite user's friends to play the game.</p>
           </div>
         </vs-col>
+        <vs-col vs-type="flex" vs-align="left" vs-lg="4" vs-sm="6" vs-xs="12">
+          <div class="my-solution3">
+            <div class="items">
+              <h4 style="margin-bottom: 25px; font-family: Arial; font-size: 18px;">My Role.</h4>
+              <p>User Research</p>
+              <p>UI/UX Design</p>
+              <p>User Testing</p>
+            </div>
+            <div class="items">
+              <h4 style="margin-bottom: 25px; font-family: Arial; font-size: 18px;">Tools</h4>
+              <p>Adove XD</p>
+              <p>Adove Illustrator</p>
+            </div>
+          </div>
+        </vs-col>
       </vs-row>
-      <vs-col vs-type="flex" vs-align="left" vs-lg="4" vs-sm="6" vs-xs="12">
-        <div class="my-solution3">
-          <div class="items">
-            <h4 style="margin-bottom: 25px; font-family: Arial; font-size: 18px;">My Role.</h4>
-            <p>User Research</p>
-            <p>UI/UX Design</p>
-            <p>User Testing</p>
-          </div>
-          <div class="items">
-            <h4 style="margin-bottom: 25px; font-family: Arial; font-size: 18px;">Tools</h4>
-            <p>Adove XD</p>
-            <p>Adove Illustrator</p>
-          </div>
-        </div>
-      </vs-col>
       <vs-col class="my-solution2" vs-lg="12" vs-sm="12" vs-xs="12">
         <div class="space-line">
 
@@ -250,8 +250,8 @@
           <div class="sketch-description1">
             <p>10. Round I Player Speaking</p>
             <p>11. Round I Search Evidence</p>
-            <p>13. Round2 -  Repeat Round I</p>
-            <p>14. Game Result</p>
+            <p>12. Round2 -  Repeat Round I</p>
+            <p>13. Game Result</p>
           </div>
         </vs-col>
 
@@ -271,8 +271,93 @@
           </div>
           <img src="static/img/project1/userflow2.png" style="width: 100%">
         </vs-col>
-
       </vs-row>
+      <vs-col class="features" vs-align="left" vs-lg="12" vs-sm="12" vs-xs="12">
+        <h4 style="font-size: 24px; font-family: arial">05 User Testing.</h4>
+      </vs-col>
+      <vs-row>
+        <vs-col vs-align="left" vs-lg="7" vs-sm="12" vs-xs="12">
+          <div class="sketch-description">
+            <p style="font-weight: 600; margin-bottom: 50px;">Paper Prototype</p>
+          </div>
+          <img src="static/img/project1/prototype.png" style="width: 100%; margin-bottom: 50px;">
+        </vs-col>
+        <vs-col vs-align="left" vs-lg="5" vs-sm="12" vs-xs="12">
+          <div class="sketch-description">
+            <p style="font-weight: 600; margin-bottom: 50px;">Testing Results</p>
+          </div>
+          <div class="prototype-right">
+            <p>1. There is no "read story" function, players need to go back to story detail during the game.</p>
+            <p>2. Texts and buttons are too small.</p>
+            <p>3. Timer and clock are confusing to the tester.</p>
+            <p>4. Setting button's position is confusing to the tester.</p>
+            <p>5. The tester cannot see cover story details.</p>
+            <p>6. Pending indicator is not obvious enough for tester to notice.</p>
+            <p>7. Too many information on Story Brief Page</p>
+          </div>
+        </vs-col>
+      </vs-row>
+      <vs-col class="features" vs-align="left" vs-lg="12" vs-sm="12" vs-xs="12">
+        <h4 style="font-size: 24px; font-family: arial">06 Final Interface.</h4>
+      </vs-col>
+      <vs-row>
+        <vs-col class="user-flow" vs-align="left" vs-lg="4" vs-sm="12" vs-xs="12" style="text-align: center">
+          <div class="sketch-description">
+            <h1 style="color: brown">#1</h1>
+            <p style="font-weight: 800">Join + Game Flow</p>
+          </div>
+          <img src="static/img/project1/white-mockup.png" style="width: 70%">
+        </vs-col>
+        <vs-col class="user-flow" vs-align="left" vs-lg="4" vs-sm="12" vs-xs="12" style="text-align: center">
+          <div class="sketch-description">
+            <h1 style="color: brown">#2</h1>
+            <p style="font-weight: 800">Match</p>
+          </div>
+          <img src="static/img/project1/white-mockup.png" style="width: 70%;">
+        </vs-col>
+        <vs-col class="user-flow" vs-align="left" vs-lg="4" vs-sm="12" vs-xs="12" style="text-align: center">
+          <div class="sketch-description">
+            <h1 style="color: brown">#3</h1>
+            <p style="font-weight: 800">Invite</p>
+          </div>
+          <img src="static/img/project1/white-mockup.png" style="width: 70%">
+        </vs-col>
+      </vs-row>
+      <vs-col class="my-solution2" vs-lg="12" vs-sm="12" vs-xs="12">
+        <div class="space-line">
+        </div>
+      </vs-col>
+      <vs-col class="features" vs-align="left" vs-lg="12" vs-sm="12" vs-xs="12">
+        <h4 style="font-size: 24px; font-family: arial">07 Technology.</h4>
+      </vs-col>
+      <vs-row>
+        <vs-col class="technology" vs-align="left" vs-lg="6" vs-sm="12" vs-xs="12">
+          <h6>Technology That Will be Used To Build This App:</h6>
+          <p>Android Studio</p>
+          <p>Android Studio</p>
+          <p>Java</p>
+          <p>Effective C</p>
+          <p>Tensor Flow Light</p>
+          <p>Python</p>
+          <p>Node.js</p>
+          <p>Javascript</p>
+          <p>IOS Back-end engine</p>
+        </vs-col>
+        <vs-col class="technology" vs-align="left" vs-lg="6" vs-sm="12" vs-xs="12">
+          <h6 style="margin-bottom: 50px;">Click To View And Download Full Case Study</h6>
+          <div class="view-case-study">View Case Study</div>
+        </vs-col>
+      </vs-row>
+      <vs-col vs-lg="12" vs-sm="12" vs-xs="12">
+        <div style="float: left">
+          <img src="static/img/project1/left_arrow.png" width="50px" height="50px" style="float: left;">
+          <h6 style="width: 150px; font-size: 18px; font-family: Arial; padding-top: 15px;">Previous</h6>
+        </div>
+        <div style="float: right">
+          <img src="static/img/project1/right-arrow.png" width="50px" height="50px" style="float: right;">
+          <h6 style="width: 45px; font-size: 18px; font-family: Arial; padding-top: 15px; float: right;">Next</h6>
+        </div>
+      </vs-col>
     </vs-row>
   </div>
 </template>
@@ -510,6 +595,39 @@
   .userflow23{
     margin-top: 100px;
   }
+  .prototype-right{
+    padding: 40px;
+    padding-top: 0;
+  }
+  .prototype-right p{
+    font-size: 18px;
+    font-family: Arial;
+    padding-bottom: 20px;
+  }
+  .technology{
+    margin-bottom: 50px;
+  }
+  .technology h6{
+    font-size: 16px;
+    font-family: Arial;
+  }
+  .technology p{
+    font-size: 16px;
+    font-family: Arial;
+    padding-top: 5px;
+  }
+  .view-case-study{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: brown;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+  }
   @media screen and (max-width: 600px) {
     .project1-container{
       padding: 20px;
@@ -591,6 +709,8 @@
     .sketch-description1{
       padding-left: 0;
     }
-
+    .prototype-right{
+      padding-left: 0;
+    }
   }
 </style>
