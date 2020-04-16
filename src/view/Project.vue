@@ -17,7 +17,7 @@
         </div>
       </vs-col>
       <vs-col  vs-type="flex" vs-justify="center" vs-align="center" vs-lg="7" vs-sm="6" vs-xs="12">
-        <img src="static/img/home/simple.png" width="100%" height="80%" style="max-width: 500px;">
+        <img src="static/img/home/0.PNG" width="100%" height="80%" style="max-width: 500px;">
       </vs-col>
       <vs-col class="problem" vs-type="flex" vs-align="left" vs-lg="12" vs-sm="12" vs-xs="12">
         Problem
